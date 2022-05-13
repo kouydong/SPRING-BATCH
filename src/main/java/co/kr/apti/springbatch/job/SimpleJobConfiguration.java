@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
-//SimpleJobConfiguration.java
+// 2nd Edtion Commit & Push in SimpleJobConfiguration
 @Slf4j                      
 @RequiredArgsConstructor    
 @Configuration              
