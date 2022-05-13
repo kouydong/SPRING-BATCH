@@ -10,11 +10,13 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
+//SimpleJobConfiguration.java
 @Slf4j                      
 @RequiredArgsConstructor    
 @Configuration              
 public class SimpleJobConfiguration {
-
+  
     private final JobBuilderFactory jobBuilderFactory;      
     private final StepBuilderFactory stepBuilderFactory;    
 
